@@ -1,3 +1,5 @@
+//check if a number is Armstrong or Not
+
 package Codes;
 
 import java.util.*;
