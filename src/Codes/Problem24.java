@@ -33,7 +33,7 @@ public class Problem24 {
 		int c=0;
 		String res[]=new String[size];
 		for(int i=0;i<str.length-1;i++) {
-			for(int j=i+1;j<str.length;j++) {
+			for(int j=i+1; j<str.length;j++) {
 			if(str[i].equals(str[j]) && (i!=j)) {
 				res[c]=str[i];
 				c++;
